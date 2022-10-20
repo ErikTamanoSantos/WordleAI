@@ -4,7 +4,7 @@ import time
 # create webdriver object
 driver = webdriver.Chrome()
 # get google.co.in
-driver.get("https://wordlegame.org/")
+driver.get("https://mikhad.github.io/wordle/#daily")
 keyboard = getKeyboard(driver)
 
 panels = getPanels(driver)
